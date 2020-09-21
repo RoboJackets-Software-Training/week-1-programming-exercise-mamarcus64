@@ -29,7 +29,7 @@ int main()
     while (start < end) {
         int temp = list[start];
         list[start] = list[end];
-        list[end] = list[start];
+        list[end] = temp;
         start++;
         end--;
     }
